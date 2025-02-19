@@ -118,8 +118,4 @@ This script calculates:
 - **Exact Match**
 - **Semantic Similarity Score**
 - **Mean Reciprocal Rank (MRR)**
-
-```
-
-```
 ````
