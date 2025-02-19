@@ -1,0 +1,11 @@
+numpy
+pandas
+torch
+faiss-cpu
+sentence-transformers
+ollama
+streamlit
+fastapi
+uvicorn
+requests
+pymupdf
