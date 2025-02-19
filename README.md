@@ -1,4 +1,3 @@
-````md
 # Q&A Retrieval System
 
 ![RAG](RAG.png)
@@ -94,15 +93,15 @@ streamlit run app.py
 
 ```
 qa-retrieval-system
- ├── ingestion.py          # Processes PDF, extracts text, builds FAISS index
- ├── retrieval.py          # Retrieves relevant chunks from the index
- ├── generation.py         # Generates the response using the local Ollama LLM
- ├── api.py                # FastAPI backend for query handling
- ├── app.py                # Streamlit UI for user interaction
- ├── evaluate.py           # Evaluates retrieval performance
- ├── requirements.txt      # Python dependencies
- ├── test.py               # For API test
- ├── README.md             # Project documentation
+ ├── ingestion.py # Processes PDF, extracts text, builds FAISS index
+ ├── retrieval.py # Retrieves relevant chunks from the index
+ ├── generation.py # Generates the response using the local Ollama LLM
+ ├── api.py # FastAPI backend for query handling
+ ├── app.py # Streamlit UI for user interaction
+ ├── evaluate.py # Evaluates retrieval performance
+ ├── requirements.txt # Python dependencies
+ ├── test.py # For API test
+ ├── README.md # Project documentation
 ```
 
 ## Evaluation
@@ -118,4 +117,3 @@ This script calculates:
 - **Exact Match**
 - **Semantic Similarity Score**
 - **Mean Reciprocal Rank (MRR)**
-````
